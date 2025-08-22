@@ -16,7 +16,7 @@ func (w *Weapon) Use() string {
 		w.Durability -= 1
 	}
 	return fmt.Sprintf(
-		"Используется оружие '%s' c уроном %d, прочтоность оружия после атаки = %d",
+		"Используется оружие '%s' c уроном %d, прочность оружия после атаки = %d",
 		w.Name,
 		w.Damage,
 		w.Durability,
